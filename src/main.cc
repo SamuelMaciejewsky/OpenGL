@@ -1,7 +1,7 @@
 #include <GLFW/glfw3.h>
 
-int main(void)
-{
+int main(void) {
+
     GLFWwindow* window;
 
     /* Initialize the library */
@@ -33,5 +33,7 @@ int main(void)
     }
 
     glfwTerminate();
+    
     return 0;
+
 }
