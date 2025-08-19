@@ -7,14 +7,14 @@ OUTPUT="OpenGL_Test.exe"
 mkdir -p build
 
 # Path to Include and Lib
-INCLUDE_PATH="./Dependencies/include"
-MINGW_LIB_PATH="./Dependencies/lib-mingw-w64"
+INCLUDE_PATH="../OpenGL/Dependencies/include"
+MINGW_LIB_PATH="../OpenGL/Dependencies/lib-mingw-w64"
 
 # Source code
 SRC_FILE="./src/main.cc"
 
 # Compile command
-g++ -I$INCLUDE_PATH -L$MINGW_LIB_PATH -lglfw3 -llibglfw3dll -lopengl32 -lgdi32 -luser32 -lkernel32 $SRC_FILE -o build/$OUTPUT -D GLFW_DLL
+gcc -I$INCLUDE_PATH -L$MINGW_LIB_PATH --verbose -lglfw3 -llibglfw3dll -lopengl32 -lgdi32 -luser32 -lkernel32 $SRC_FILE -o build/$OUTPUT -D GLFW_DLL
 
 EXIT_STATUS=$?
 
