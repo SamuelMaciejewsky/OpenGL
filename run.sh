@@ -4,18 +4,20 @@
 # Output File Name
 OUTPUT="OpenGL_Test.exe"
 
+mkdir build
+
 # Path to Include and Lib
-INCLUDE_PATH=".\\Dependencies\\GLFW\\include"
-LIB_PATH=".\\Dependencies\\GLFW\\lib-vc2022"
+INCLUDE_PATH="./Dependencies/GLFW/include"
+LIB_PATH="./Dependencies/GLFW/lib-vc2022"
 
 # Libs to link
 LIBS="-lglfw3 -lOpenGL32"
 
 # Source code
-SRC_FILES=".\\src\\main.cc"
+SRC_FILES="./src/main.cc"
 
 # Compile command
-g++ $SRC_FILES -o build\\$OUTPUT -I$INCLUDE_PATH -L$LIB_PATH $LIBS
+g++ $SRC_FILES -o build/$OUTPUT -I$INCLUDE_PATH -L$LIB_PATH $LIBS
 
 # Check Compile
 if [ $? -eq 0 ]; then
@@ -26,4 +28,4 @@ else
 fi
 
 # Copy DLL to build directory
-cp $LIB_PATH\\glfw3.dll .\\build\\
+cp $LIB_PATH//glfw3.dll ./build/
