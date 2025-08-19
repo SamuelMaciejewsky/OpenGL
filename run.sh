@@ -2,8 +2,8 @@
 # ./run.sh on git bash
 
 # Output File Name
-UT="OpenGL_Test.exe"
-OUTP
+OUTPUT="OpenGL_Test.exe"
+
 mkdir -p build
 
 # Path to Include and Lib
