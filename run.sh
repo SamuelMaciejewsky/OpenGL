@@ -2,8 +2,8 @@
 # ./run.sh on git bash
 
 # Output File Name
-OUTPUT="OpenGL_Test.exe"
-
+UT="OpenGL_Test.exe"
+OUTP
 mkdir -p build
 
 # Path to Include and Lib
@@ -11,10 +11,11 @@ INCLUDE_PATH="./Dependencies/include/GLFW"
 MINGW_LIB_PATH="./Dependencies/lib-mingw-w64"
 
 # Source code
-SRC_FILES="./src/main.cc"
+SRC_FILE="./src/main.cc"
 
 # Compile command
-g++ -I$INCLUDE_PATH -L$MINGW_LIB_PATH -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32 $./src/main.cc -o build/$OUTPUT -D GLFW_DLL
+g++ -I$INCLUDE_PATH -L$MINGW_LIB_PATH -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32 $SRC_FILE -o build/$OUTPUT -D GLFW_DLL
+
 # Check Compile
 if [ $? -eq 0 ]; then
     echo "Compilado com sucesso"
