@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/WorkSpace/Projects/CPP/OpenGL/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/OpenGL_Test.dir/includes_CXX.rsp -g -o CMakeFiles\\OpenGL_Test.dir\\src\\main.cc.obj -c C:\\WorkSpace\\Projects\\CPP\\OpenGL\\src\\main.cc",
+  "file": "C:/WorkSpace/Projects/CPP/OpenGL/src/main.cc",
+  "output": "CMakeFiles/OpenGL_Test.dir/src/main.cc.obj"
+}
+]
