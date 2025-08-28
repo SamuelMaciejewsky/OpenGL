@@ -1,39 +1,39 @@
+#include <glad/gl.h>
 #include <GLFW/glfw3.h>
 
-int main(void) {
+int main() {
 
-    GLFWwindow* window;
-
-    /* Initialize the library */
-    if (!glfwInit())
+    if(!gflw3Init()) {
+        
+        cout << "Eror to init glfw" << endl;
         return -1;
 
-    /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
-    if (!window)
-    {
-        glfwTerminate();
-        return -1;
     }
 
-    /* Make the window's context current */
-    glfwMakeContextCurrent(window);
+    void error_callback(int error, const char* description) {
+        cout << stderr << "Error " << description << endl;
+    } 
 
-    /* Loop until the user closes the window */
-    while (!glfwWindowShouldClose(window))
-    {
-        /* Render here */
-        glClear(GL_COLOR_BUFFER_BIT);
+    glfwSetErrorCallback(error_callback);
 
-        /* Swap front and back buffers */
-        glfwSwapBuffers(window);
-
-        /* Poll for and process events */
-        glfwPollEvents();
-    }
-
-    glfwTerminate();
     
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+    glfwWinfowHint(GLFW_CONTEXT_VERSION_MAJOR, 0);
+    GLFWwindow* window = glfwCreateWindow(1280, 720, "Test", NULL, NULL);
+    if(!window) { 
+
+        cout << "Error to create window" << endl;
+        return -2;
+
+    }
+
+    glfwMakeContextCurrent(window);
+    gladLoadGL(glfwGetProcAddress);
+
+    glfwDestroyWindow(window);
+
+
+
     return 0;
 
 }

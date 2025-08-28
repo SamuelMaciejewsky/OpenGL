@@ -1370,6 +1370,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_GLAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding GLAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include][v()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_GLFW3",
 			"properties" : 
 			[
@@ -1382,6 +1394,18 @@
 			"value" : "[C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/lib/libglfw3.a][C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include][v()]"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_KHR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding KHR"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include][v()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
 			"properties" : 
 			[
@@ -1392,6 +1416,46 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[opengl32][ ][v()]"
+		},
+		{
+			"name" : "GLAD_CMAKE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Directory containing glad generator CMakeLists.txt. Must be absolute."
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/WorkSpace/Projects/CPP/OpenGL"
+		},
+		{
+			"name" : "GLAD_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include"
+		},
+		{
+			"name" : "GLAD_SOURCES_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Directory containing glad sources (python modules), used as working directory. Must be absolute."
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/WorkSpace/Projects/CPP/OpenGL/../"
 		},
 		{
 			"name" : "GLFW3_INCLUDE_DIR",
@@ -1416,6 +1480,18 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/lib/libglfw3.a"
+		},
+		{
+			"name" : "KHR_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -1486,6 +1562,30 @@
 			"value" : "C:/WorkSpace/Projects/CPP/OpenGL"
 		},
 		{
+			"name" : "gl_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gl."
+				}
+			],
+			"type" : "PATH",
+			"value" : "gl_DIR-NOTFOUND"
+		},
+		{
+			"name" : "glad_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for glad."
+				}
+			],
+			"type" : "PATH",
+			"value" : "glad_DIR-NOTFOUND"
+		},
+		{
 			"name" : "glfw3_DIR",
 			"properties" : 
 			[
@@ -1496,6 +1596,18 @@
 			],
 			"type" : "PATH",
 			"value" : "glfw3_DIR-NOTFOUND"
+		},
+		{
+			"name" : "khrplatafom_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for khrplatafom."
+				}
+			],
+			"type" : "PATH",
+			"value" : "khrplatafom_DIR-NOTFOUND"
 		}
 	],
 	"kind" : "cache",

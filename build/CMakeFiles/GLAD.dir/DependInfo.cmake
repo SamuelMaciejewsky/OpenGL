@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/WorkSpace/Projects/CPP/OpenGL/src/glad.c" "CMakeFiles/OpenGL_Test.dir/src/glad.c.obj" "gcc" "CMakeFiles/OpenGL_Test.dir/src/glad.c.obj.d"
-  "C:/WorkSpace/Projects/CPP/OpenGL/src/main.cc" "CMakeFiles/OpenGL_Test.dir/src/main.cc.obj" "gcc" "CMakeFiles/OpenGL_Test.dir/src/main.cc.obj.d"
+  "C:/WorkSpace/Projects/CPP/OpenGL/src/glad.c" "CMakeFiles/GLAD.dir/src/glad.c.obj" "gcc" "CMakeFiles/GLAD.dir/src/glad.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

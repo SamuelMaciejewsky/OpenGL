@@ -47,7 +47,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeRCCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeSystem.cmake"
+  "C:/WorkSpace/Projects/CPP/OpenGL/cmake/Findglad.cmake"
   "C:/WorkSpace/Projects/CPP/OpenGL/cmake/Findglfw3.cmake"
+  "C:/WorkSpace/Projects/CPP/OpenGL/cmake/Findkhr.cmake"
   )
 
 # The corresponding makefile is:
@@ -64,4 +66,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenGL_Test.dir/DependInfo.cmake"
+  "CMakeFiles/GLAD.dir/DependInfo.cmake"
   )

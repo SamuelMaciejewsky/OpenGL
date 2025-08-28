@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "OpenGL_Test",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "GLAD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GLAD-Debug-33d57cea6f257dd5bec8.json",
+					"name" : "GLAD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "OpenGL_Test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGL_Test-Debug-6ebe5e61f6d8c181995e.json",
+					"jsonFile" : "target-OpenGL_Test-Debug-371805af1aaf7a464ee9.json",
 					"name" : "OpenGL_Test",
 					"projectIndex" : 0
 				}

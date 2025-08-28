@@ -135,6 +135,46 @@ OpenGL_Test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL_Test.dir\build.make CMakeFiles/OpenGL_Test.dir/build
 .PHONY : OpenGL_Test/fast
 
+#=============================================================================
+# Target rules for targets named GLAD
+
+# Build rule for target.
+GLAD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GLAD
+.PHONY : GLAD
+
+# fast build rule for target.
+GLAD/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/build
+.PHONY : GLAD/fast
+
+src/glad.obj: src/glad.c.obj
+.PHONY : src/glad.obj
+
+# target to build an object file
+src/glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL_Test.dir\build.make CMakeFiles/OpenGL_Test.dir/src/glad.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/glad.c.obj
+.PHONY : src/glad.c.obj
+
+src/glad.i: src/glad.c.i
+.PHONY : src/glad.i
+
+# target to preprocess a source file
+src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL_Test.dir\build.make CMakeFiles/OpenGL_Test.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/glad.c.i
+.PHONY : src/glad.c.i
+
+src/glad.s: src/glad.c.s
+.PHONY : src/glad.s
+
+# target to generate assembly for a file
+src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL_Test.dir\build.make CMakeFiles/OpenGL_Test.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/src/glad.c.s
+.PHONY : src/glad.c.s
+
 src/main.obj: src/main.cc.obj
 .PHONY : src/main.obj
 
@@ -168,7 +208,11 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... GLAD
 	@echo ... OpenGL_Test
+	@echo ... src/glad.obj
+	@echo ... src/glad.i
+	@echo ... src/glad.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

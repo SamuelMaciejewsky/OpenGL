@@ -4458,3 +4458,1285 @@ events:
         - "C:/Program Files/CMake/bin"
         - "/bin"
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:7 (find_package)"
+    name: "gl"
+    configs:
+      -
+        filename: "glConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "gl-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "gl"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/pkgRedirects/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/pkgRedirects/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/gl-ES/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/gl-ES/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/Globalization/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/Globalization/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/wbem/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/wbem/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/WindowsPowerShell/v1.0/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/WindowsPowerShell/v1.0/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/OpenSSH/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/OpenSSH/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/dotnet/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/dotnet/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Cloudflare/Cloudflare WARP/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Cloudflare/Cloudflare WARP/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/tools/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/tools/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/glConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/gl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\intel64\\vc_mt\\"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\intel64_win\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\tools\\"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\samue\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\samue\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\samue\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OpenGL_Test"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/OpenGL_Test"
+      CMAKE_MODULE_PATH:
+        - "C:/WorkSpace/Projects/CPP/OpenGL/cmake"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:9 (find_package)"
+    name: "glad"
+    configs:
+      -
+        filename: "gladConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "glad-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glad"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/pkgRedirects/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/pkgRedirects/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/wbem/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/wbem/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/WindowsPowerShell/v1.0/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/WindowsPowerShell/v1.0/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/OpenSSH/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/OpenSSH/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/dotnet/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/dotnet/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Cloudflare/Cloudflare WARP/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Cloudflare/Cloudflare WARP/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/tools/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/tools/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\intel64\\vc_mt\\"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\intel64_win\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\tools\\"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\samue\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\samue\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\samue\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OpenGL_Test"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/OpenGL_Test"
+      CMAKE_MODULE_PATH:
+        - "C:/WorkSpace/Projects/CPP/OpenGL/cmake"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:7 (find_package)"
+    name: "khrplatafom"
+    configs:
+      -
+        filename: "khrplatafomConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "khrplatafom-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "khrplatafom"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/pkgRedirects/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/pkgRedirects/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/wbem/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/wbem/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/WindowsPowerShell/v1.0/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/WindowsPowerShell/v1.0/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/OpenSSH/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/WINDOWS/System32/OpenSSH/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/dotnet/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/dotnet/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Cloudflare/Cloudflare WARP/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Cloudflare/Cloudflare WARP/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/tools/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eclipse/Sumo/tools/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/ZeroTier/One/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/khrplatafomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/khrplatafom-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\intel64\\vc_mt\\"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\intel64_win\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\tools\\"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\samue\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\samue\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\samue\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OpenGL_Test"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/OpenGL_Test"
+      CMAKE_MODULE_PATH:
+        - "C:/WorkSpace/Projects/CPP/OpenGL/cmake"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/Findglad.cmake:27 (FIND_PATH)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "path"
+    variable: "GLAD_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glad/glad.h"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/"
+      - "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/"
+      - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/"
+      - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/"
+      - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/WINDOWS/System32/"
+      - "C:/WINDOWS/"
+      - "C:/WINDOWS/System32/wbem/"
+      - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "C:/WINDOWS/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Eclipse/Sumo/bin/"
+      - "C:/Program Files (x86)/Eclipse/Sumo/tools/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/samue/.dotnet/tools/"
+      - "C:/msys64/ucrt64/include/"
+      - "C:/msys64/ucrt64/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/OpenGL_Test/include/"
+      - "C:/Program Files (x86)/OpenGL_Test/"
+      - "C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/glad/glad.h"
+      - "C:/msys64/usr/bin/glad/glad.h"
+      - "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/glad/glad.h"
+      - "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64/compiler/glad/glad.h"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/glad/glad.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glad/glad.h"
+      - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/glad/glad.h"
+      - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/glad/glad.h"
+      - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/glad/glad.h"
+      - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/glad/glad.h"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/glad/glad.h"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/glad/glad.h"
+      - "C:/WINDOWS/System32/glad/glad.h"
+      - "C:/WINDOWS/glad/glad.h"
+      - "C:/WINDOWS/System32/wbem/glad/glad.h"
+      - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/glad/glad.h"
+      - "C:/WINDOWS/System32/OpenSSH/glad/glad.h"
+      - "C:/Program Files/dotnet/glad/glad.h"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/glad/glad.h"
+      - "C:/Program Files (x86)/dotnet/glad/glad.h"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/glad/glad.h"
+      - "C:/Program Files (x86)/Eclipse/Sumo/bin/glad/glad.h"
+      - "C:/Program Files (x86)/Eclipse/Sumo/tools/glad/glad.h"
+      - "C:/Program Files (x86)/ZeroTier/One/glad/glad.h"
+      - "C:/Program Files/Git/cmd/glad/glad.h"
+      - "C:/Program Files/Docker/Docker/resources/bin/glad/glad.h"
+      - "C:/Program Files/CMake/bin/glad/glad.h"
+      - "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/glad/glad.h"
+      - "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin/glad/glad.h"
+      - "C:/Users/samue/.dotnet/tools/glad/glad.h"
+      - "C:/msys64/ucrt64/include/glad/glad.h"
+      - "C:/msys64/ucrt64/glad/glad.h"
+      - "C:/Program Files/include/glad/glad.h"
+      - "C:/Program Files/glad/glad.h"
+      - "C:/Program Files (x86)/include/glad/glad.h"
+      - "C:/Program Files (x86)/glad/glad.h"
+      - "C:/Program Files/CMake/include/glad/glad.h"
+      - "C:/Program Files/CMake/glad/glad.h"
+      - "C:/Program Files (x86)/OpenGL_Test/include/glad/glad.h"
+      - "C:/Program Files (x86)/OpenGL_Test/glad/glad.h"
+    found: "C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\"
+        - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler"
+        - "C:/Program Files/Common Files/Oracle/Java/javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\"
+        - "C:/Program Files (x86)/Eclipse/Sumo/tools/"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\samue\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/samue/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OpenGL_Test"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/OpenGL_Test"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/Findkhr.cmake:27 (FIND_PATH)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "path"
+    variable: "KHR_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "KHR/khrplatform.h"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/"
+      - "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/"
+      - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/"
+      - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/"
+      - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/WINDOWS/System32/"
+      - "C:/WINDOWS/"
+      - "C:/WINDOWS/System32/wbem/"
+      - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "C:/WINDOWS/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Eclipse/Sumo/bin/"
+      - "C:/Program Files (x86)/Eclipse/Sumo/tools/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/samue/.dotnet/tools/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/OpenGL_Test/include/"
+      - "C:/Program Files (x86)/OpenGL_Test/"
+      - "C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64_win/compiler/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/Common Files/intel/Shared Libraries/redist/intel64/compiler/KHR/khrplatform.h"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler/KHR/khrplatform.h"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/KHR/khrplatform.h"
+      - "C:/WINDOWS/System32/KHR/khrplatform.h"
+      - "C:/WINDOWS/KHR/khrplatform.h"
+      - "C:/WINDOWS/System32/wbem/KHR/khrplatform.h"
+      - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/KHR/khrplatform.h"
+      - "C:/WINDOWS/System32/OpenSSH/KHR/khrplatform.h"
+      - "C:/Program Files/dotnet/KHR/khrplatform.h"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/dotnet/KHR/khrplatform.h"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/Eclipse/Sumo/bin/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/Eclipse/Sumo/tools/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/ZeroTier/One/KHR/khrplatform.h"
+      - "C:/Program Files/Git/cmd/KHR/khrplatform.h"
+      - "C:/Program Files/Docker/Docker/resources/bin/KHR/khrplatform.h"
+      - "C:/Program Files/CMake/bin/KHR/khrplatform.h"
+      - "C:/Users/samue/AppData/Local/Microsoft/WindowsApps/KHR/khrplatform.h"
+      - "C:/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin/KHR/khrplatform.h"
+      - "C:/msys64/ucrt64/bin/KHR/khrplatform.h"
+      - "C:/Users/samue/.dotnet/tools/KHR/khrplatform.h"
+      - "C:/Program Files/include/KHR/khrplatform.h"
+      - "C:/Program Files/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/include/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/KHR/khrplatform.h"
+      - "C:/Program Files/CMake/include/KHR/khrplatform.h"
+      - "C:/Program Files/CMake/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/OpenGL_Test/include/KHR/khrplatform.h"
+      - "C:/Program Files (x86)/OpenGL_Test/KHR/khrplatform.h"
+    found: "C:/WorkSpace/Projects/CPP/OpenGL/Dependencies/include/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\intel64\\vc_mt\\"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\intel64_win\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\"
+        - "C:\\Program Files (x86)\\Eclipse\\Sumo\\tools\\"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\samue\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\samue\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\samue\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OpenGL_Test"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/OpenGL_Test"
+...
