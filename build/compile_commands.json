@@ -10,11 +10,5 @@
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/OpenGL_Test.dir/includes_C.rsp -g -o CMakeFiles\\OpenGL_Test.dir\\src\\glad.c.obj -c C:\\WorkSpace\\Projects\\CPP\\OpenGL\\src\\glad.c",
   "file": "C:/WorkSpace/Projects/CPP/OpenGL/src/glad.c",
   "output": "CMakeFiles/OpenGL_Test.dir/src/glad.c.obj"
-},
-{
-  "directory": "C:/WorkSpace/Projects/CPP/OpenGL/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\GLAD.dir\\src\\glad.c.obj -c C:\\WorkSpace\\Projects\\CPP\\OpenGL\\src\\glad.c",
-  "file": "C:/WorkSpace/Projects/CPP/OpenGL/src/glad.c",
-  "output": "CMakeFiles/GLAD.dir/src/glad.c.obj"
 }
 ]

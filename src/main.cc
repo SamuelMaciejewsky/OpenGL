@@ -1,28 +1,32 @@
-#include <glad/gl.h>
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <iostream>
+
+void error_callback(int error, const char* description){
+    std::cout << stderr << "Error: " << description << std::endl;
+}
 
 int main() {
 
-    if(!gflw3Init()) {
+    GLFWwindow* window;
+    
+
+    glfwSetErrorCallback(error_callback);
+
+    if(!glfwInit()) {
         
-        cout << "Eror to init glfw" << endl;
+        std::cout << "Eror to init glfw" << std::endl;
         return -1;
 
     }
 
-    void error_callback(int error, const char* description) {
-        cout << stderr << "Error " << description << endl;
-    } 
-
-    glfwSetErrorCallback(error_callback);
-
-    
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
-    glfwWinfowHint(GLFW_CONTEXT_VERSION_MAJOR, 0);
-    GLFWwindow* window = glfwCreateWindow(1280, 720, "Test", NULL, NULL);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 0);
+
+    window = glfwCreateWindow(1280, 720, "Test", NULL, NULL);
     if(!window) { 
 
-        cout << "Error to create window" << endl;
+        std::cout << "Error to create window" << std::endl;
         return -2;
 
     }

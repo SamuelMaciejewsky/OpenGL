@@ -1,4 +1,3 @@
 C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/OpenGL_Test.dir
-C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/GLAD.dir
 C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/edit_cache.dir
 C:/WorkSpace/Projects/CPP/OpenGL/build/CMakeFiles/rebuild_cache.dir

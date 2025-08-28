@@ -63,12 +63,10 @@ CMAKE_BINARY_DIR = C:\WorkSpace\Projects\CPP\OpenGL\build
 
 # The main recursive "all" target.
 all: CMakeFiles/OpenGL_Test.dir/all
-all: CMakeFiles/GLAD.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/OpenGL_Test.dir/codegen
-codegen: CMakeFiles/GLAD.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -77,7 +75,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/OpenGL_Test.dir/clean
-clean: CMakeFiles/GLAD.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -87,7 +84,7 @@ clean: CMakeFiles/GLAD.dir/clean
 CMakeFiles/OpenGL_Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL_Test.dir\build.make CMakeFiles/OpenGL_Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL_Test.dir\build.make CMakeFiles/OpenGL_Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkSpace\Projects\CPP\OpenGL\build\CMakeFiles --progress-num=3,4,5 "Built target OpenGL_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkSpace\Projects\CPP\OpenGL\build\CMakeFiles --progress-num=1,2,3 "Built target OpenGL_Test"
 .PHONY : CMakeFiles/OpenGL_Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -104,45 +101,13 @@ OpenGL_Test: CMakeFiles/OpenGL_Test.dir/rule
 # codegen rule for target.
 CMakeFiles/OpenGL_Test.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL_Test.dir\build.make CMakeFiles/OpenGL_Test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkSpace\Projects\CPP\OpenGL\build\CMakeFiles --progress-num=3,4,5 "Finished codegen for target OpenGL_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkSpace\Projects\CPP\OpenGL\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target OpenGL_Test"
 .PHONY : CMakeFiles/OpenGL_Test.dir/codegen
 
 # clean rule for target.
 CMakeFiles/OpenGL_Test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGL_Test.dir\build.make CMakeFiles/OpenGL_Test.dir/clean
 .PHONY : CMakeFiles/OpenGL_Test.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/GLAD.dir
-
-# All Build rule for target.
-CMakeFiles/GLAD.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkSpace\Projects\CPP\OpenGL\build\CMakeFiles --progress-num=1,2 "Built target GLAD"
-.PHONY : CMakeFiles/GLAD.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/GLAD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkSpace\Projects\CPP\OpenGL\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GLAD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\WorkSpace\Projects\CPP\OpenGL\build\CMakeFiles 0
-.PHONY : CMakeFiles/GLAD.dir/rule
-
-# Convenience name for target.
-GLAD: CMakeFiles/GLAD.dir/rule
-.PHONY : GLAD
-
-# codegen rule for target.
-CMakeFiles/GLAD.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\WorkSpace\Projects\CPP\OpenGL\build\CMakeFiles --progress-num=1,2 "Finished codegen for target GLAD"
-.PHONY : CMakeFiles/GLAD.dir/codegen
-
-# clean rule for target.
-CMakeFiles/GLAD.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/clean
-.PHONY : CMakeFiles/GLAD.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
