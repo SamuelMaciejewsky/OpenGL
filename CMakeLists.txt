@@ -22,3 +22,4 @@ target_include_directories( OpenGL_Test PRIVATE Dependencies/include )
 target_link_libraries( OpenGL_Test ${GLFW3_LIBRARY} OpenGL::GL )
 target_link_libraries( OpenGL_Test ${GLAD_LIBRARY} OpenGL::GL )
 target_link_libraries( OpenGL_Test ${KHR_LIBRARY} OpenGL::GL )
+
