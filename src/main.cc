@@ -10,6 +10,34 @@ void processInput(GLFWwindow *window);
 const unsigned int SRC_WIDTH = 1280;
 const unsigned int SRC_HEIGHT = 720;
 
+// Vertex configuration
+// --------------------
+
+// Vertex Array Object and Vertex Buffer Object
+unsigned int VBO, VAO;
+
+// Vertex data for a triangle
+float vertices[] = {
+    -0.5f, -0.5f, 0.0f, // Bottom left
+     0.5f, -0.5f, 0.0f, // Bottom right
+     0.0f,  0.5f, 0.0f  // Top 
+};
+
+// ----------------------------------------------
+
+const char* vertexShaderSource = "#version 460 core\n"
+    "layout (location = 0) in vec3 aPos;\n"
+    "void main() {\n"
+    "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+    "}\0";
+
+const char* fragmentShaderSource = "#version 460 core\n"
+    "out vec4 FragColor;\n"
+    "void main() {\n"
+    "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+    "}\n\0";
+
+
 // Callback function to adjust the viewport when the window is resized
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 
@@ -84,6 +112,11 @@ int main(void) {
     }
 
     // ------------------------------------------------------------------------------
+
+    glGenBuffers(1, &VBO);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    
 
     // Engine loop - runs until the window is closed
     // ---------------------------------------------
