@@ -10,11 +10,19 @@ void processInput(GLFWwindow *window);
 const unsigned int SRC_WIDTH = 1280;
 const unsigned int SRC_HEIGHT = 720;
 
+// Error handling variables
+int success;
+char infoLog[512];
+
 // Vertex configuration
 // --------------------
 
 // Vertex Array Object and Vertex Buffer Object
 unsigned int VBO, VAO;
+unsigned int vertexShader;
+unsigned int fragmentShader;
+unsigned int shaderProgram;
+
 
 // Vertex data for a triangle
 float vertices[] = {
@@ -116,7 +124,27 @@ int main(void) {
     glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+
+
+    // Vertex shader object
+    // --------------------
+    vertexShader = glCreateShader(GL_VERTEX_SHADER);
+    glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
+    glCompileShader(vertexShader);
+    glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success);
+    if(!success) {
+        glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
+        std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << std::endl;
+    }   
+
+    // ------------------------------------------------------------------------------
     
+    // Fragment shader object
+    // ----------------------
+    fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+    glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
+    glCompileShader(fragmentShader);
+
 
     // Engine loop - runs until the window is closed
     // ---------------------------------------------
