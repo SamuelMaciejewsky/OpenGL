@@ -13,7 +13,7 @@ find_package( khr REQUIRED )
 include_directories(${CMAKE_SOURCE_DIR}/glad) 
 
 # Criar o executável com main.cc e glad.c
-add_executable( OpenGL_Test src/main.cc src/glad.c )
+add_executable( OpenGL_Test src/main.cc src/glad.c Dependencies/include/myLib/logcomponent.cc)
 
 # Diretórios de inclusão adicionais
 target_include_directories( OpenGL_Test PRIVATE Dependencies/include )

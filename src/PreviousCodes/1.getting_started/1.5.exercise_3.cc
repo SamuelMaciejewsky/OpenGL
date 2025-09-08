@@ -1,8 +1,6 @@
 #include<glad/glad.h>
 #include<GLFW/glfw3.h>
-#include<myLib/logcomponent.cc>
 #include<iostream>
-
 
 // Setup function declarations
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
@@ -143,8 +141,6 @@ int main(void) {
 
     // ------------------------------------------------------------------------------
 
-
-    
 
     // Shader section
     // --------------
