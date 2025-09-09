@@ -2,7 +2,7 @@
 #
 # This module defines the following variables:
 #
-# GLAD_INCLUDE_DIR where to find glfw include files.
+# GLAD_INCLUDE_DIR where to find glad include files.
 # GLAD_FOUND true if both the GLAD_INCLUDE_DIR have been found.
 #
 # To help locate the library and include file, you can define a

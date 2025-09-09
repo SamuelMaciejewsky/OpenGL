@@ -2,7 +2,7 @@
 #
 # This module defines the following variables:
 #
-# KHR_INCLUDE_DIR where to find glfw include files.
+# KHR_INCLUDE_DIR where to find khr include files.
 # KHR_FOUND true if both the KHR_INCLUDE_DIR have been found.
 #
 # To help locate the library and include file, you can define a
