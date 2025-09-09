@@ -1,7 +1,7 @@
 #include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include "logcomponent.h"
+#include <myLib/logcomponent.h>
 
 LogComponent::LogComponent() {}
 
