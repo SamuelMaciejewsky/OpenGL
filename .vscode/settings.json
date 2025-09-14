@@ -50,6 +50,10 @@
         "text_encoding": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "Aula1.C": "cpp",
+        "Hello3.C": "cpp",
+        "testestring.C": "cpp",
+        "Amizade.C": "cpp"
     }
 }
