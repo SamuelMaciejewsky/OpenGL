@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 4.1.0)
-project(OpenGL_Test VERSION 1.0.0)
+cmake_minimum_required( VERSION 4.1.0 )
+project( OpenGL_Test VERSION 1.0.0 )
 
 set( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake )
 
