@@ -31,6 +31,12 @@ For compiling the code, the project relies on the **MSYS2 UCRT** environment, wh
 3. Run the installer and follow the default installation steps
 
 After installation, open the MSYS2 terminal and switch to the UCRT64 environment by running:
+You can open the MSYS2 UCRT64 environment in two ways:
+
+1. **Via Windows Start Menu:**
+	- Click the Windows Start Menu and search for "MSYS2 UCRT64". Select it to open the correct shell.
+2. **Via Command Line:**
+	- Open the main MSYS2 terminal and run the following command:
 
 ```sh
 msys2_shell.cmd -defterm -ucrt64
