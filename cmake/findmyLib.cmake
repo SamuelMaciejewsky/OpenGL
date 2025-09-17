@@ -24,7 +24,7 @@ if( myLib_ROOT )
 endif()
 
 # Search for the header
-FIND_PATH( myLib_INCLUDE_DIR "myLib/logcomponent.h"
+FIND_PATH( myLib_INCLUDE_DIR "myLib/shader.h"
 PATHS ${_myLib_HEADER_SEARCH_DIRS} )
 
 # Manipulate the search results
