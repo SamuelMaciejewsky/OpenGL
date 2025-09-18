@@ -104,7 +104,7 @@ int main(void) {
 
     }
 
-    Shader ourShader("src/shaders/1.9.shader.vs", "src/shaders/1.9.shader.fs");
+    Shader ourShader("../src/shaders/shader.vs", "../src/shaders/shader.fs");
 
     // ..:: Initialization code ..:: //
     // ----------------------------- //
